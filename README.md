@@ -29,6 +29,7 @@ You are a physics teacher :man_teacher: preparing for the upcoming semester. You
       <samp>bomb_mass = 1</samp>
     </li>
   </ul>
+  
 
 <hr style="border:1px solid gray"> </hr>
 
@@ -60,4 +61,6 @@ You are a physics teacher :man_teacher: preparing for the upcoming semester. You
 
 <hr style="border:1px solid gray"> </hr>
 
-<p align="center">:+1:</p>
+<p align="center">
+<img src="https://c.tenor.com/ANQ5MHKx7EYAAAAC/star-wars-dark-side.gif" alt="may the force with you!" width="auto" height="150" border="10"/>
+</p>
