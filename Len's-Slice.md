@@ -5,41 +5,32 @@
   <img src="https://c.tenor.com/yBbrOgB6tXQAAAAC/ratatouille-cheese.gif" alt="Remy eating pizza" title="Remy eating pizza"/>
 </p>
 
-<h3>Make Some Pizzas</h3>
+<h3 align="center">Make Some Pizzas</h3>
 
 A. To keep track of the kinds of pizzas you sell, create a list called toppings that holds the following:
 <p display="inline" list-style="none">
-  <ul>
-    <li>"pepperoni"</li><li>"pineapple"</li><li>"cheese"</li><li>"sausage"</li><li>"olives"</li><li>"anchovies"</li><li>"mushrooms"</li>
-  </ul>
-</p>
+  <p align="center"><code>"pepperoni"&nbsp;&nbsp; "pineapple"&nbsp;&nbsp; "cheese"&nbsp;&nbsp; "sausage"&nbsp;&nbsp; "olives"&nbsp;&nbsp; "anchovies"&nbsp;&nbsp; "mushrooms"</code></p>
 
-B. To keep track of how much each kind of pizza slice costs, create a list called prices that holds the following integer values:
-<p>2, 6, 1, 3, 2, 7, 2</p>
+B. To keep track of how much each kind of pizza slice costs, create a list called `prices` that holds the following integer values:
+<p align="center"><code>2</code>&nbsp;&nbsp; <code>6</code>&nbsp;&nbsp; <code>1</code>&nbsp;&nbsp; <code>3</code>&nbsp;&nbsp; <code>2</code>&nbsp;&nbsp; <code>7</code>&nbsp;&nbsp; <code>2</code></p>
 
-C. Your boss wants you to do some research on $2 slices. Count the number of occurrences of 2 in the prices list, and store the result in a variable called `num_two_dollar_slices`. 
+C. Your boss wants you to do some research on $2 slices. Count the number of occurrences of <code>2</code> in the `prices` list, and store the result in a variable called `num_two_dollar_slices`. 
 Print it out.
 
 D. Find the length of the toppings list and store it in a variable called `num_pizzas`.
 
 E. Print the string <em>'We sell `num_pizzas` different kinds of pizza!'</em>. `num_pizzas` represents the value of our variable `num_pizzas`.
 
-F. Convert our toppings and prices lists into a 2-dimensional list called `pizza_and_prices` that has the following associated values. Each sublist in `pizza_and_prices` should have one pizza topping and an associated price.
+F. Convert our toppings and prices lists into a 2-dimensional list called `pizza_and_prices` that has the following associated values. Each sublist in `pizza_and_prices` should have one pizza topping and an associated price. <em align="center">For this project make sure the prices come before the topping name like so:</em> <code>[price, topping_name]</code>
 
-<strong>Price	Topping:</strong>
-<ul><li>2	"pepperoni"</li>
-<li>6	"pineapple"</li>
-<li>1	"cheese"</li>
-<li>3	"sausage"</li>
-<li>2	"olives"</li>
-<li>7	"anchovies"</li>
-<li>2	"mushrooms"</li></ul>
+<p align="center"><strong>Price	Topping:</strong>
+<code>2	"pepperoni"</code>&nbsp;&nbsp; <code>6 "pineapple"</code>&nbsp;&nbsp; <code>1	"cheese"</code>&nbsp;&nbsp; <code>3	"sausage"</code>&nbsp;&nbsp; <code>2 "olives"</code>&nbsp;&nbsp; <code>7 "anchovies"</code>&nbsp;&nbsp; <code>2	"mushrooms"</code></p>
 
-<em align="center">For this project make sure the prices come before the topping name like so:</em> [price, topping_name]
+</br>
 
 G. Print `pizza_and_prices`. Does it look the way you expect?
 
-<h3>Sorting and Slicing Pizzas</h3>
+<h3 align="center">Sorting and Slicing Pizzas</h3>
 
 H. Sort `pizza_and_prices` so that the pizzas are in order of increasing price (ascending).
 
@@ -58,6 +49,6 @@ M. Three mice walk into the store. They don’t have much money (they’re mice)
 
 O. Slice the `pizza_and_prices` list and store the 3 lowest cost pizzas in a list called `three_cheapest`.
 
-P. <strong>Great job! :thumbsup: </strong> The mice are very pleased and will be leaving you a 5-star review.
+P. <strong>Great job! :thumbsup: </strong> The 🐁 are very pleased and will be leaving you a 5-star review.
 
 Q. Print the `three_cheapest` list.
