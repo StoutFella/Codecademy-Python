@@ -146,8 +146,6 @@ Replace all the instances of <code>;,;</code> in `daily_sales` with some other c
 
 Append each of these split strings (which are lists now) to our new list <code>daily_transactions_split</code>.</p>
 
-<h1>TO BE CONTINUED...</h1>
-
 <p>7. Print <code>daily_transactions_split</code>. How’s it looking?</p>
 
 <p>8. It looks like each data item has inconsistent whitespace around it. First, define an empty list <code>transactions_clean</code>.
