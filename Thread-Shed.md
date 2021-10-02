@@ -134,15 +134,76 @@ It looks like each transaction is separated from the next transaction by a <code
   
 If we want to split up `daily_sales` into a list of individual transactions, we are going to want to split by <code>,,</code> but first, we need to replace the artifact <code>;,;</code> to something without a comma, so we don’t split any transactions themselves. 
 
-Replace all the instances of <code>;,;</code> in `daily_sales` with some other character and save the result to `daily_sales_replaced`</br></br>
+Replace all the instances of <code>;,;</code> in `daily_sales` with some other character and save the result to `daily_sales_replaced`</br>
   
-<p>3. Now we can split the string into a list of each individual transaction. Split <code>daily_sales_replaced</code> around commas and save it to a new list <code>daily_transactions</code></p></br>
+<p>3. Now we can split the string into a list of each individual transaction. Split <code>daily_sales_replaced</code> around commas and save it to a new list <code>daily_transactions</code></p>
 
-<p>4. <code>Print daily_transactions</code>.</p></br>
+<p>4. <code>Print daily_transactions</code>.</p>
 
-<p>5. Our next step is to split each individual transaction into a list of its data points.
+<p>5. Next, split each individual transaction into a list of its data points. First, define an empty list <code>daily_transactions_split</code></p>
 
-First, define an empty list `daily_transactions_split`</p></br>
+<p>6. Now, iterate through <code>daily_transactions</code> (remember, this is a list of strings currently), and for each transaction, split the string around whatever character you replaced the <code>;,;</code> artifacts with in Step 2.
+
+Append each of these split strings (which are lists now) to our new list <code>daily_transactions_split</code>.</p>
 
 <h1>TO BE CONTINUED...</h1>
 
+<p>7. Print <code>daily_transactions_split</code>. How’s it looking?</p>
+
+<p>8. It looks like each data item has inconsistent whitespace around it. First, define an empty list <code>transactions_clean</code>.
+
+Now, Iterate through <code>daily_transactions_split</code> and for each transaction iterate through the different data points and strip off any whitespace. Add each of these cleaned up transactions to the new list <code>transactions_clean</code>.</p>
+
+<p>9. Print <code>transactions_clean</code>. If you performed the last step correctly, you shouldn’t see any unnecessary whitespace.</p>
+
+<p>10. Create three empty lists. <code>customers</code>, <code>sales</code>, and <code>thread_sold</code>. We are going to collect the individual data points for each transaction in these lists.</p>
+
+<p>11. Now, iterate through <code>transactions_clean</code> and for each transaction:
+
+`A`. Append customers name to customers. &nbsp;
+`B`. Append amount of sale to sales. &nbsp;
+`C`. Append threads sold to <code>thread_sold</code>.
+</p>
+
+<p> 12. Print <code>customers</code>, <code>sales</code>, and <code>thread_sold</code> to make sure each list is what you are expected.</p>
+
+<h3>DETERMINE THE TOTAL VALUE OF THE DAYS SALES</h3>
+
+<p> 13. Now we want to know how much Thread Shed made in a day. First, define a variable called <code>total_sales</code> and set it equal to 0.</p>
+
+<p> 14. Now, consider the list <code>sales</code>. It is a list of strings that we want to sum. In order for us to sum these values, we will have to remove the $, and set them equal to floats.
+
+Iterate through <code>sales</code> and for each item, strip off the $, set it equal to a float, and add it to <code>total_sales</code>.</p>
+
+<p> 15. Print total <code>sales</code>. How much did we make today?</p>
+
+<h3>HOW MUCH THREAD OF ANY SPECIFIC COLOR WAS SOLD?</h3>
+
+<p> 16. Finally, we want to determine how many of each color thread we sold today. Let’s start with a single color, and then we’ll generalize it. First, print out <code>thread_sold</code> and inspect it.</p>
+
+<p> 17. We see that <code>thread_sold</code> is a list of strings, some are single colors and some are multiple colors separated by the <code>&</code> character.
+
+The end product we want here is a list that contains an item for each color thread sold, so no strings that have multiple colors in them.
+
+First, define an empty list <code>thread_sold_split</code>.</p>
+
+<p> 18. Next, iterate through <code>thread_sold</code>. For each item, check if it is a single color or multiple colors. If it is a single color, append that color to <code>thread_sold_split</code>. If it is multiple colors, first split the string around the <code>&</code> character and then add each color individually to <code>thread_sold_split</code>.</p>
+
+<p>19. Great, now we have a list <code>thread_sold_split </code> that contains an entry with the color of every thread sold today.
+
+  Define a function called <code>color_count</code> that takes one argument, color. The function should iterate through <code>thread_sold_split</code> and count the number of times the item is equal to argument, color. Then, it should return this count.</p>
+
+<p> 20. Test your new function by running <code>color_count('white')</code>. Your function should return <strong>28</strong>.</p>
+
+<div>21. Define a list called <code>colors</code> that stores all of the colored threads that Thread Shed offers:</br></br>
+  
+  <p 22. align="center"><code python>colors = ['red','yellow','green','white','black','blue','purple']</code></p>
+
+</div>
+</br>
+
+<p> 22. Now, using the list <code>colors</code>, the string method <code>.format()</code>, and the function <code>color_count</code>, iterate through <code>thread_sold_split</code> and print a sentence that says how many threads of each color were sold today.</p> 
+
+<code>Output should look like:</code> "Thread Shed sold <code>28</code> threads of <code>white</code> thread today"
+
+<h3 align="center"> Good Job!</h3>
