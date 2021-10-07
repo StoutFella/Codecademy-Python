@@ -115,7 +115,7 @@ Define attractions to be a list of 5 (one for each test destination) empty lists
 
 <p>28. First we should attempt to find the index of the destination. Use <code>get_destination_index()</code> with the passed in destination in order to retrieve the index of the destination. Save the results into <code>destination_index</code>.</p>
 
-<h4>29 - 30. This task is no longer necessary. It has been left blank so the project tasks stay aligned with the walkthrough video. <code>Move on to task 31.</code></p>
+<h4>29 - 30. This task is no longer necessary. It has been left blank so the project tasks stay aligned with the walkthrough video. <code>Move on to task 31.</code></h4>
 
 <p>31. If the destination does exist, then we already have a list for it in attractions. Use the <code>destination_index</code> to find the appropriate list in attractions and save that list to <code>attractions_for_destination</code>.</p>
 
