@@ -105,7 +105,7 @@ Save the index of the traveler’s destination into the variable <code>traveler_
 
 <p>25. Actually, we want attractions to be an empty list for every destination in destinations. You can do this with this code:
 
-<code python>attractions = [[], [], [], [], []]</code> <strong>But<strong> there are other ways to accomplish the same thing: <em>by looping through destinations</em> or with a <em>list comprehension</em>.
+<code python>attractions = [[], [], [], [], []]</code> <strong>But</strong> there are other ways to accomplish the same thing: <em>by looping through destinations</em> or with a <em>list comprehension</em>.
 
 Define attractions to be a list of 5 (one for each test destination) empty lists using a loop or list comprehension.</p>
 
