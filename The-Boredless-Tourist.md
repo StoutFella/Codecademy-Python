@@ -126,22 +126,21 @@ To the “Los Angeles, USA” destination by calling <code>add_attraction()</cod
 
 <p>34. Print out attractions. Then save and run your code with <code>python3 script.py</code>. Your print statement should render the following: <code>[[], [], [['Venice Beach', ['beach']]], [], []]</code> If it doesn’t something went wrong with <code>add_attraction()</code>.
 
-<p>34. Let’s add a few more interesting places to go, paste the following code to add a few more attractions:
-
-<p>35. <code python>add_attraction("Paris, France", ["the Louvre", ["art", "museum"]])
-add_attraction("Paris, France", ["Arc de Triomphe", ["historical site", "monument"]])
-add_attraction("Shanghai, China", ["Yu Garden", ["garden", "historcical site"]])
-add_attraction("Shanghai, China", ["Yuz Museum", ["art", "museum"]])
-add_attraction("Shanghai, China", ["Oriental Pearl Tower", ["skyscraper", "viewing deck"]])
-add_attraction("Los Angeles, USA", ["LACMA", ["art", "museum"]])
-add_attraction("São Paulo, Brazil", ["São Paulo Zoo", ["zoo"]])
-add_attraction("São Paulo, Brazil", ["Pátio do Colégio", ["historical site"]])
-add_attraction("Cairo, Egypt", ["Pyramids of Giza", ["monument", "historical site"]])
-add_attraction("Cairo, Egypt", ["Egyptian Museum", ["museum"]])</code>.</p>
+35.<span> Let’s add a few more interesting places to go, paste the following code to add a few more attractions.</span></br>
+`add_attraction("Paris, France", ["the Louvre", ["art", "museum"]])`</br>
+`add_attraction("Paris, France", ["Arc de Triomphe", ["historical site", "monument"]])`</br>
+`add_attraction("Shanghai, China", ["Yu Garden", ["garden", "historcical site"]])`</br>
+`add_attraction("Shanghai, China", ["Yuz Museum", ["art", "museum"]])`</br>
+`add_attraction("Shanghai, China", ["Oriental Pearl Tower", ["skyscraper", "viewing deck"]])`</br>
+`add_attraction("Los Angeles, USA", ["LACMA", ["art", "museum"]])`</br>
+`add_attraction("São Paulo, Brazil", ["São Paulo Zoo", ["zoo"]])`</br>
+`add_attraction("São Paulo, Brazil", ["Pátio do Colégio", ["historical site"]])`</br>
+`add_attraction("Cairo, Egypt", ["Pyramids of Giza", ["monument", "historical site"]])`</br>
+`add_attraction("Cairo, Egypt", ["Egyptian Museum", ["museum"]])`</span>
 
 <p>36. Let’s add this change to our git repo. First add <code>script.py</code> to your git index.</p>
 
-<p>36. Then <code>commit</code> the changes with the message:
+<p>37. Then <code>commit</code> the changes with the message:
 
 <em>"Created attractions and functionality for adding new attractions"</em></p>
 
