@@ -201,4 +201,4 @@ Define attractions to be a list of 5 (one for each test destination) empty lists
 
 <p>64. Let’s commit, using this message: </br><code>"Added function to generate message for traveler and present attractions they might be interested in."</code></p></br>
 
-<footer align="center"><img src="https://c.tenor.com/kZfByKpjb3gAAAAM/applause-pingu.gif" width="auto" height="200" </img><p><a href="https://i.giphy.com/media/QBC5foQmcOkdq/giphy.webp"></a></p><h3>Give yourself a hand!</h3></footer>
+<footer align="center"><img align="center" src="https://c.tenor.com/kZfByKpjb3gAAAAM/applause-pingu.gif" width="auto" height="200" </img><p><a href="https://i.giphy.com/media/QBC5foQmcOkdq/giphy.webp"></a></p><h3>Give yourself a hand!</h3></footer>
