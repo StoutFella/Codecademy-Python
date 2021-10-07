@@ -137,7 +137,7 @@ add_attraction("Los Angeles, USA", ["LACMA", ["art", "museum"]])
 add_attraction("São Paulo, Brazil", ["São Paulo Zoo", ["zoo"]])
 add_attraction("São Paulo, Brazil", ["Pátio do Colégio", ["historical site"]])
 add_attraction("Cairo, Egypt", ["Pyramids of Giza", ["monument", "historical site"]])
-add_attraction("Cairo, Egypt", ["Egyptian Museum", ["museum"]])<code>.</p>
+add_attraction("Cairo, Egypt", ["Egyptian Museum", ["museum"]])</code>.</p>
 
 <p>36. Let’s add this change to our git repo. First add <code>script.py</code> to your git index.</p>
 
