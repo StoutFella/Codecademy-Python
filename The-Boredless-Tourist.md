@@ -35,11 +35,9 @@ Create a list with the following destinations and save it into a variable called
 </ul>
 </p>
 
-<p>5. Let’s define a test traveler to see how our functionality is working so far.
+<p>5. Let’s define a test traveler to see how our functionality is working so far. Create a <code>test_traveler</code> variable. Assign to it the following list:
 
-Create a <code>test_traveler</code> variable. Assign to it the following list:
-
-<code>['Erin Wilkes', 'Shanghai, China', ['historical site', 'art']]</code>
+<code align="center">['Erin Wilkes', 'Shanghai, China', ['historical site', 'art']]</code>
 
 This is a traveler (a user of The Boredless Tourist application) whose name is Erin Wilkes who likes historical buildings and art. Erin is in China right now, hopefully we can find some good places to show her.</p>
 
@@ -51,7 +49,7 @@ First, save the file, then add <code>script.py</code> to the git index using <co
 
 <h3 align="center">Travelling To Faraway Lands</h3>
 
-<p>8. Now that we have test data for a traveler and a list of destinations that we can use, we can start building some of the Boredless Tourist‘s functionality.</br></br>
+<p>8. Now that we have test data for a traveler and a list of destinations that we can use, we can start building some of the Boredless Tourist‘s functionality.</br>
 
 When a traveler arrives at a destination, we want to know where they are! Since we use lists for all of our data — we are going to identify each location based on its index in our destinations list. But we need to retrieve that index first.
 
@@ -73,13 +71,12 @@ Is the destination index for <em>“Los Angeles, USA”</em> equal to 2?</p>
 
 Try it now: call <code>get_destination_index()</code> with the argument <em>“Hyderabad, India”</em>. What happens?</p>
 
-<p>14. If you used the <code>.index()</code> method to get the index of a destination from the list, you’ll notice that calling <code>get_destination_index()</code> with data that is missing from our destinations list will raise a <strong>ValueError</strong>. </br></br>
+<p>14. If you used the <code>.index()</code> method to get the index of a destination from the list, you’ll notice that calling <code>get_destination_index()</code> with data that is missing from our destinations list will raise a <strong>ValueError</strong>. </br>
 
-Don’t add logic to avoid triggering this ValueError, it’s going to be useful for us in the future.</p>
+`Don’t add logic to avoid triggering this ValueError, it’s going to be useful for us in the future.`
+</p>
 
-<p>15. Now let’s define a function called <code>get_traveler_location()</code></br></br>
-
-<code>get_traveler_location()</code> is going to take a single parameter, <em>traveler</em></p>
+<p>15. Now let’s define a function called <code>get_traveler_location()</code></br>. <code>get_traveler_location()</code> is going to take a single parameter, <em>traveler</em></p>
 
 <p>16. In the body of <code>get_traveler_location()</code>, access the traveler’s destination string and save it into <code>traveler_destination</code>.</p> 
 
@@ -121,8 +118,7 @@ Define attractions to be a list of 5 (one for each test destination) empty lists
 
 <p>32. <em>Append</em> the attraction passed into <code>add_attraction</code> to the list <code>attractions_for_destination</code>. That’s all we want this function to do, so we can return after adding the attraction to the list.</p>
 
-<p>33. Try adding the following attraction: <code>['Venice Beach', ['beach']]</code>
-To the “Los Angeles, USA” destination by calling <code>add_attraction()</code> with the two as arguments.</p>
+<p>33. Try adding the following attraction: <code>['Venice Beach', ['beach']]</code> to the “Los Angeles, USA” destination by calling <code>add_attraction()</code> with the two as arguments.</p>
 
 <p>34. Print out attractions. Then save and run your code with <code>python3 script.py</code>. Your print statement should render the following: <code>[[], [], [['Venice Beach', ['beach']]], [], []]</code> If it doesn’t something went wrong with <code>add_attraction()</code>.
 
@@ -140,9 +136,7 @@ To the “Los Angeles, USA” destination by calling <code>add_attraction()</cod
 
 <p>36. Let’s add this change to our git repo. First add <code>script.py</code> to your git index.</p>
 
-<p>37. Then <code>commit</code> the changes with the message:
-
-<em>"Created attractions and functionality for adding new attractions"</em></p>
+<p>37. Then <code>commit</code> the changes with the message: <em>"Created attractions and functionality for adding new attractions"</em></p>
 
 <h3 align="center">Finding the Best Places to Go</h3>
 
