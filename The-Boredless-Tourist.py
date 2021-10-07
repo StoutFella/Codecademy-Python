@@ -1,5 +1,11 @@
 #LEGEND
-# Test your code in terminal by typing: python3 script.py
+# You can test your code in terminal by typing: python3 script.py 
+
+#1 Start by initializing our project in terminal with: git init
+
+#2 Add script.py to the staging aread by running in terminal: git add script.py
+
+#3 Perform a git commit with the message "inital commit"
 
 #4
 destinations = ['Paris, France', 'Shanghai, China', 'Los Angeles, USA', 'São Paulo, Brazil', 'Cairo, Egypt']
@@ -7,8 +13,9 @@ destinations = ['Paris, France', 'Shanghai, China', 'Los Angeles, USA', 'São Pa
 #5
 test_traveler = ['Erin Wilkes', 'Shanghai, China', ['historical site', 'art']]
 
+#6 Save the file and add script.py to git index using: git add
 
-
+#7 git commit with message "Added test objects"
 
 #TRAVELLING TO FARAWAY LANDS
 
@@ -41,9 +48,6 @@ test_destination_index = get_traveler_location(test_traveler) #Test if our get_t
 
 #20-21
 #print(test_destination_index) #Output: 1 (Shanghai, China)
-
-
-
 
 #VISITING INTERESTING PLACES
 
