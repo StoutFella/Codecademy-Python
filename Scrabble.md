@@ -69,3 +69,6 @@ points = [1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 4, 1, 3, 10, 1, 1, 1, 1, 4, 4, 
   <li>Make your <code>letter_to_points</code> dictionary able to handle lowercase inputs as well</li>
 </ul>
 </p>
+<br><br>
+<h3 align="center">Good Job, keep going!</h3>
+<hr width="160">
