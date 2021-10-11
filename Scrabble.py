@@ -3,11 +3,11 @@ points = [1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 4, 1, 3, 10, 1, 1, 1, 1, 4, 4, 
 
 #1
 letter_to_points = {key:value for key, value in zip(letters, points)}
-#print(letter_to_points)
+print(letter_to_points)
 
 #2
 letter_to_points[" "] = 0
-#print(letter_to_points)
+print(letter_to_points)
 
 #3-6
 def score_word(value):
@@ -20,7 +20,7 @@ def score_word(value):
 brownie_points = score_word('BROWNIE')
 
 #8
-#print(brownie_points)
+print(brownie_points)
 
 #9
 player_to_words = {
@@ -48,5 +48,5 @@ def update_point_totals():
 def play_word(player, word):
   player_to_words[player].append(word)
 play_word('Player Lonely', "It's leg day".upper())
-#print(player_to_words)
-#print(player_to_points)
+print(player_to_words)
+print(player_to_points)
