@@ -1,10 +1,9 @@
-#LEGEND
+                    #LEGEND
 # You can test your code in terminal by typing: python3 script.py 
 
+
 #1 Start by initializing our project in terminal with: git init
-
 #2 Add script.py to the staging aread by running in terminal: git add script.py
-
 #3 Perform a git commit with the message "inital commit"
 
 #4
@@ -14,10 +13,9 @@ destinations = ['Paris, France', 'Shanghai, China', 'Los Angeles, USA', 'São Pa
 test_traveler = ['Erin Wilkes', 'Shanghai, China', ['historical site', 'art']]
 
 #6 Save the file and add script.py to git index using: git add
-
 #7 git commit with message "Added test objects"
 
-#TRAVELLING TO FARAWAY LANDS
+                    #TRAVELLING TO FARAWAY LANDS
 
 #8-10
 #returns an index of a destination as variable, destination_index | see #11 & #12 as example
@@ -27,14 +25,14 @@ def get_destinations_index(destination):
 
 #11
 los_angeles_index = get_destinations_index('Los Angeles, USA')
-#print(los_angeles_index)  #Output: 2
+print(los_angeles_index)  #Output: 2
 
 #12
 paris_index = get_destinations_index('Paris, France')
-#print(paris_index) #Output: 0
+print(paris_index) #Output: 0
 
 #13-14
-#print(get_destinations_index('Hyderabad, India')) #Output: Argument not in list, python throws ValueError
+print(get_destinations_index('Hyderabad, India')) #Output: Argument not in list, python throws ValueError
 
 #15-18
 #returns an index of the traveler as variable, traveler_destination_index | see #20 & #21 as example
@@ -47,9 +45,9 @@ def get_traveler_location(traveler):
 test_destination_index = get_traveler_location(test_traveler) #Test if our get_traveler_location function works, results in #20-21
 
 #20-21
-#print(test_destination_index) #Output: 1 (Shanghai, China)
+print(test_destination_index) #Output: 1 (Shanghai, China)
 
-#VISITING INTERESTING PLACES
+                    #VISITING INTERESTING PLACES
 
 #24
 attractions = []  #There should be an attraction for each destination. Lets loop through each destination and add an empty list (this empty list will hold the argument from the function, add_attraction (Example: if a user wants to add an attraction)
@@ -60,8 +58,8 @@ for destination in destinations:
   attractions.append([])  # Output: [[], [], [], [], []]
   #Option 2 (List Comprhension): 
   # attractions = [[] for destination in destinations]  
-#print(attractions)  #Output: [[], [], [], [], []]
-#print(destinations) #Output: ['Paris, France', 'Shanghai, China', 'Los Angeles, USA', 'São Paulo, Brazil', 'Cairo, Egypt']
+print(attractions)  #Output: [[], [], [], [], []]
+print(destinations) #Output: ['Paris, France', 'Shanghai, China', 'Los Angeles, USA', 'São Paulo, Brazil', 'Cairo, Egypt']
 
 #27-28
 #MISSING STEPS FROM CODECADEMY COURSE 29 & 30 - MOVE ON TO #31
@@ -78,7 +76,7 @@ def add_attraction(destination,attraction): #If a user wants to add an attractio
 add_attraction('Los Angeles, USA', ['Venice Beach', ['beach']])
 
 #34
-#print(attractions)  #Output: [[], [], [['Venice Beach', ['beach']]], [], []]
+print(attractions)  #Output: [[], [], [['Venice Beach', ['beach']]], [], []]
 
 #35
 add_attraction("Paris, France", ["the Louvre", ["art", "museum"]])
@@ -93,14 +91,12 @@ add_attraction("Cairo, Egypt", ["Pyramids of Giza", ["monument", "historical sit
 add_attraction("Cairo, Egypt", ["Egyptian Museum", ["museum"]])
 
 #36
-#print(attractions)  #Output: [[['the Louvre', ['art', 'museum']]...['Egyptian Museum', ['museum']]]]
+print(attractions)  #Output: [[['the Louvre', ['art', 'museum']]...['Egyptian Museum', ['museum']]]]
 
 #37 Commit changes to git with message "Created attractions and functionality for adding new attractions"
 
 
-
-
-#FINDING THE BEST PLACES TO GO
+                    #FINDING THE BEST PLACES TO GO
 
 #38-42
 def find_attractions(destination,interests):
@@ -125,10 +121,10 @@ def find_attractions(destination,interests):
 #47
 la_arts = find_attractions('Los Angeles, USA', ['art'])  
 #48
-#print(la_arts)  #Output: [['LACMA', ['art', 'museum']]]
+print(la_arts)  #Output: [['LACMA', ['art', 'museum']]]
 
 #50
-#print(la_arts) #Output after step #49: ['LACMA']
+print(la_arts) #Output after step #49: ['LACMA']
 
 #51
 #git add script.py
@@ -138,8 +134,7 @@ la_arts = find_attractions('Los Angeles, USA', ['art'])
 
 
 
-
-#SEE THE PARTS OF A CITY YOU WANT TO SEE
+                    #SEE THE PARTS OF A CITY YOU WANT TO SEE
 
 #53-60
 def get_attractions_for_traveler(traveler):
